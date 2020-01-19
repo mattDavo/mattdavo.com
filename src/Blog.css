@@ -1,0 +1,17 @@
+#blog-container {
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 20px;
+}
+
+.article-title {
+    margin: 10px 0;
+}
+
+.article-summary {
+    margin: 15px 0;
+}
+
+.article-date {
+    margin-left: 10px;
+}

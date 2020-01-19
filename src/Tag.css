@@ -1,0 +1,17 @@
+.tag {
+    background-color: gray;
+    border-radius: 500px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+    vertical-align: middle;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}

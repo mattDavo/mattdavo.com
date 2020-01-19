@@ -1,0 +1,130 @@
+[
+    {
+        "title": "Recent Work",
+        "items": [
+            {
+                "id": "westpac",
+                "title": "Westpac, DDEP",
+                "subtitle": "Data Engineer, Jul - Dec 18",
+                "body": "Developed Inbound JSON functionality for Data Driven Experiences Platform python framework, which provides the ability to ingest large JSON datasets with optional pre-processing, validate schemas and produce a Hive table on top. Wrote unit tests, increasing code coverage from approximately 60% to 70% (100+ tests).",
+                "link": "/work/westpac"
+            },
+            {
+                "title": "Coffee Better",
+                "subtitle": "iOS Developer, 2018",
+                "body": "Lead iOS developer for coffee better. Built in Swift with Google Firebase for data collecting/storage and Google and Facebook authentication.",
+                "link": "/work/coffee-better",
+                "tags": [
+                    {
+                        "title": "APP STORE",
+                        "link": "https://itunes.apple.com/au/app/coffee-better/id1434229741?mt=8",
+                        "color": "gray"
+                    },
+                    {
+                        "title": "WEBSITE",
+                        "link": "https://coffeebetter.com.au/",
+                        "color": "gray"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Open Source",
+        "items": [
+            {
+                "title": "Editor",
+                "subtitle": "Grammar Parser and Syntax Highlighter",
+                "previewImage": "https://raw.githubusercontent.com/mattDavo/Editor/master/Images/EditorReadMeExample.gif",
+                "link": "/work/editor",
+                "tags": [
+                    {
+                        "title": "SOURCE CODE",
+                        "link": "https://github.com/mattDavo/Editor",
+                        "color": "#23d160"
+                    }
+                ]
+            },
+            {
+                "title": "Yippy",
+                "subtitle": "Open Source Clipboard Manager",
+                "previewImage": "https://raw.githubusercontent.com/mattDavo/Yippy/master/images/screenshot.jpg",
+                "link": "/work/yippy",
+                "tags": [
+                    {
+                        "title": "SOURCE CODE",
+                        "link": "https://github.com/mattDavo/yippy",
+                        "color": "#23d160"
+                    }
+                ]
+            },
+            {
+                "title": "UIImageDefaults",
+                "subtitle": "Cocoa Pod",
+                "body": "Simple Swift extension for locally saving and loading images with ease.",
+                "link": "/work/uiimagedefaults",
+                "tags": [
+                    {
+                        "title": "SOURCE CODE",
+                        "link": "https://github.com/mattDavo/UIImageDefaults",
+                        "color": "#23d160"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "University Projects",
+        "subtitle": "Whilst I've done a lot of interesting projects/assignments at UNSW, lecturers prefer that students don't publish the code of their assignments most of the time, to prevent plagiarism from students in later years if the lecturer decides to use the same or a similar assignment again. So here is a collection of uni work that is ok to show:",
+        "items": [
+            {
+                "title": "Networks Assignment",
+                "subtitle": "COMP3331 - 2019",
+                "body": "In this assignment the task was create a peer in a circular distributed hash table, where we required to simulate tasks such as quering for a file, transferring a file and handling peers leaving cleanly and unexpectedly. Watch my demo video to see how I implemented it.",
+                "link": "/work/networks-asst",
+                "tags": [
+                    {
+                        "title": "DEMO",
+                        "link": "https://youtu.be/erY1EcPavtQ",
+                        "color": "red"
+                    }
+                ]
+            },
+            {
+                "title": "Policy Pilot",
+                "subtitle": "React Native App, January 2018",
+                "body": "A simple, colourful, proof of concept app built in React Native, to highlight the good, neutral and bad points in the terms and conditions of over 60 web services.",
+                "link": "/work/policy-pilot",
+                "tags": [
+                    {
+                        "title": "PLAY STORE",
+                        "link": "https://play.google.com/store/apps/details?id=com.policypilot&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
+                        "color": "gray"
+                    },
+                    {
+                        "title": "WEBSITE",
+                        "link": "http://policypilot.dcg.nz/",
+                        "color": "gray"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Other Fun Projects",
+        "items": [
+            {
+                "title": "Masters Shotlink",
+                "subtitle": "Classifying golf shots by pixel colors",
+                "previewImage": "/images/masters-shotlink2.jpg",
+                "link": "/work/masters-shotlink"
+            },
+            {
+                "title": "Train Game Solver",
+                "subtitle": "Solver for the classic make 10 game",
+                "body": "Solver to the train/bus/ferry/tram/any 4 digit number game. Must make 10 by using all 4 numbers in order. Can use any number of parentheses and the + - × ÷ operators.",
+                "link": "/make-ten"
+            }
+        ]
+    }
+]

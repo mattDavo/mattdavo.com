@@ -1,0 +1,93 @@
+#home {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    max-width: 1000px;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.section-heading {
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.section-subheading {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.section-heading-title {
+    margin-bottom: 0;
+    float: left;
+}
+
+.section-heading-expand {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    float: right;
+    font-weight: normal;
+    color: inherit;
+}
+
+.section-heading-expand a {
+    text-decoration: none;
+}
+
+.section-heading-expand a:hover {
+    text-decoration: underline;
+}
+
+.section-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-item {
+    border: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.section-item-title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.section-item-subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.section-item-preview-image {
+    max-width:100%;
+}
+
+/* Medium screen: content width is flexible. */
+@media (min-width: 800px) {
+    .section-item {
+        /* Width = (screen width - padding)/3 - padding - margin - border */
+        width: calc((100vw - 40px)/ 3 - 10px - 10px - 0px);
+    }
+}
+
+/* Large screen: width of content is capped at 1000, with padding of 20px each side. */
+@media (min-width: 1040px) {
+    .section-item {
+        /* Width = content width/3 - padding - margin - border */
+        width: calc((1000px/3) - 10px - 10px - 0px);
+    }
+}
+
+/* Small screen, full width, vertical items. */
+@media (max-width: 800px) {
+    .section-item {
+        width: 100%;
+    }
+}

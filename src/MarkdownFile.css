@@ -1,0 +1,19 @@
+.markdown-container {
+    max-width: 800px;
+    margin: auto;
+    line-height: 2em;
+}
+
+.not-found {
+    text-align: center;
+}
+
+code {
+    background-color: rgb(153, 153, 153);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+pre code {
+    background-color: inherit;
+}

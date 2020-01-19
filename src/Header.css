@@ -1,0 +1,38 @@
+.app-header {
+    align-content: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding-top: 10px;
+}
+
+#header-name {
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0px;
+    color: var(--alt-primary-color);
+}
+
+#header-name a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#header-image {
+    max-height: 200px;
+    border-width: 10px;
+    border-radius: 50%;
+    border: 5px solid var(--alt-primary-color);
+    background-color: var(--alt-primary-color);
+}
+
+.link-icon {
+    color: var(--alt-primary-color);
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#social-icons {
+    margin-top: 10px;
+}

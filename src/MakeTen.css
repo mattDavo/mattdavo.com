@@ -1,0 +1,50 @@
+.make-ten-container {
+    margin: auto;
+    max-width: 800px;
+}
+
+#input {
+    max-width: 120%;
+}
+
+#solveable {
+    text-align: center;
+}
+
+.train {
+    background-color: #eeeeee;
+}
+    
+.train-input {
+    border-bottom-color: cornflowerblue;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    outline-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 140px;
+    color: cornflowerblue;
+    caret-color: cornflowerblue;
+    width: auto;
+    text-indent: 5px;
+    /* margin-left: -50px; */
+    position: relative;
+    left: 25%;
+    margin: auto;
+    background-color: inherit;
+}
+
+.train-solution {
+    color: lightseagreen;
+}
+
+.train-no-solution {
+    color: crimson;
+}
+
+form {
+    padding: 30px;
+    padding-top: 15px
+}

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+/* Base app styling is light */
+:root {
+    --primary-color: rgb(94, 219, 250);
+    --secondary-color: rgb(89, 193, 253);
+    --alt-primary-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+    background-color: white;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subtitle {
+    color: rgb(54, 54, 54);;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    color: var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style different if dark color scheme is preferred. */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: rgb(37, 143, 214);
+        --secondary-color: rgb(17, 76, 202);
+        --alt-primary-color: rgb(26, 26, 26);
+    }
+    
+    .app {
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+    
+    .title {
+        color: white;
+    }
+    
+    .subtitle {
+        color: rgb(224, 224, 224);
+    }
+    
+    a {
+        color: rgb(62, 177, 223);
+        outline-color: white;
+    }
+}
+
+
+pre {
+    margin-bottom: 1.5em;
+    background-color: #1a1a1a;
+    padding: 16px 0;
+    border-radius: 16px;
+}
+
+pre code {
+    display: block;
+    padding: 0 20px;
+    line-height: 1.4em;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+.link-title a {
+    text-decoration: none;
+    color: inherit;
+}
+.link-title a:hover {
+    color: var(--primary-color);
+}
+
+.centered-text {
+    text-align: center;
 }

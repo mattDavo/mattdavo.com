@@ -1,0 +1,38 @@
+[
+    {
+        "id": "cocoa-pods",
+        "title": "COCOA PODS",
+        "color": "red",
+        "link": "/tags/cocoa-pods"
+    },
+    {
+        "id": "yippy",
+        "title": "YIPPY",
+        "color": "#5884ad",
+        "link": "/tags/yippy"
+    },
+    {
+        "id": "swift",
+        "title": "SWIFT",
+        "color": "#ff6600",
+        "link": "/tags/swift"
+    },
+    {
+        "id": "cocoa",
+        "title": "COCOA",
+        "color": "brown",
+        "link": "/tags/cocoa"
+    },
+    {
+        "id": "testing",
+        "title": "TESTING",
+        "color": "#c603fc",
+        "link": "/tags/testing"
+    },
+    {
+        "id": "mocking",
+        "title": "MOCKING",
+        "color": "#c603fc",
+        "link": "/tags/mocking"
+    }
+]

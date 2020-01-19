@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Settings up good dev and test environment",
+        "summary": "Creating more environments in Xcode for creating Beta and Test versions of your apps.",
+        "date": 1571009694,
+        "link": "/blog/setting-up-dev-and-test-env",
+        "tags": ["cocoa-pods", "yippy"]
+    },
+    {
+        "title": "The Class Variable 😍",
+        "summary": "How and when to use a class variable instead of a static variable.",
+        "date": 1570923294,
+        "link": "/blog/class-variable",
+        "tags": [
+            "yippy",
+            "swift"
+        ]
+    },
+    {
+        "title": "The Battle of the NSMenu Bar",
+        "summary": "Learn about how to best set the frame of an NSWindow based on the position/size/visibility of the NSMenu bar.",
+        "date": 1570404894,
+        "link": "/blog/menu-bar",
+        "tags": [
+            "yippy",
+            "swift",
+            "cocoa"
+        ]
+    },
+    {
+        "title": "Refactoring and Enhancements to the YippyViewController",
+        "summary": "My experience and learnings in refactoring Yippy.",
+        "date": 1570318494,
+        "link": "/blog/refactoring-yippy",
+        "tags": [
+            "yippy",
+            "swift"
+        ]
+    },
+    {
+        "title": "Using NSPasteboard to mock library functions for testing",
+        "summary": "Learn of a cool way to mock out library functions and control their values in your UI testing.",
+        "date": 1569800094,
+        "link": "/blog/library-function-mocking",
+        "tags": [
+            "yippy",
+            "swift",
+            "testing",
+            "mocking"
+        ]
+    }
+]
