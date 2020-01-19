@@ -37,7 +37,7 @@ function getArticleSubtitle(article) {
         year: 'numeric'
     });
     
-    return (<span className="subtitle">{tags}<span className="article-date">Published on {dataStr}</span></span>);
+    return (<span className="subtitle article-subtitle">{tags}<span className="article-date">Published on {dataStr}</span></span>);
 }
 
 function renderArticle(article, i) {

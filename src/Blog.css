@@ -13,5 +13,9 @@
 }
 
 .article-date {
-    margin-left: 10px;
+    display: inline-block;
+}
+
+.article-subtitle {
+    line-height: 1.7em;
 }
