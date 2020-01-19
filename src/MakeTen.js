@@ -124,6 +124,7 @@ class MakeTen extends React.Component {
                         className="train"
                         placeholder="1234"
                         size="4"
+                        pattern="\d*"
                         onKeyDown={this.validateNumber}
                         onKeyUp={(e) => {
                             let input = this.refs.input;
