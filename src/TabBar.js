@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 
 import './TabBar.css';
 
@@ -17,24 +17,24 @@ class TabBar extends React.Component {
         return (
             <div id="tab-bar">
                 <ul>
-                    <li><a
-                        href="/"
+                    <li><Link
+                        to="/"
                         className={`` + (this.props.location.pathname === '/' ? ' selected' : '')}
                     >
                         Home
-                    </a></li>
-                    <li><a
-                        href="/about"
+                    </Link></li>
+                    <li><Link
+                        to="/about"
                         className={`` + (this.props.location.pathname === '/about' ? ' selected' : '')}
                     >
                         About
-                    </a></li>
-                    <li><a
-                        href="/blog"
+                    </Link></li>
+                    <li><Link
+                        to="/blog"
                         className={`` + (this.props.location.pathname.startsWith('/blog/') || this.props.location.pathname === '/blog' ? ' selected' : '')}
                     >
                         Blog
-                    </a></li>
+                    </Link></li>
                 </ul>
             </div>
         );

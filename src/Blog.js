@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     Route,
-    Switch
+    Switch,
+    Link
 } from 'react-router-dom';
 
 import BlogArticle from './BlogArticle';
@@ -18,7 +19,7 @@ function getTagData(tag) {
 function renderTag(tag, i) {
     let { color, link, title } = getTagData(tag) || {};
     return (
-        <a key={i} className="tag" href={link} style={{ backgroundColor: color }}>{title}</a>
+        <Link key={i} className="tag" to={link} style={{ backgroundColor: color }}>{title}</Link>
     );
 }
 
@@ -46,9 +47,9 @@ function renderArticle(article, i) {
         <div key={i}>
             <hr />
             <h2 className="title article-title link-title">
-                <a href={article.link}>
+                <Link to={article.link}>
                     {article.title}
-                </a>
+                </Link>
             </h2>
             {subtitle}
             <p className="subtitle article-summary">{article.summary}</p>

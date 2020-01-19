@@ -18,11 +18,12 @@
 }
 
 #header-image {
-    max-height: 200px;
+    height: 200px;
+    width: 200px;
     border-width: 10px;
     border-radius: 50%;
     border: 5px solid var(--alt-primary-color);
-    background-color: var(--alt-primary-color);
+    background-color: var(--primary-color);
 }
 
 .link-icon {

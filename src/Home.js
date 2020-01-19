@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Home.css';
 import './Tag.css';
@@ -46,9 +47,9 @@ class HomeSection extends React.Component {
             return (
                 <div className="section-item" key={i}>
                     <h4 className="title link-title section-item-title">
-                        <a href={item.link}>
+                        <Link to={item.link}>
                             {item.title}
-                        </a>
+                        </Link>
                     </h4>
                     <h5 className="subtitle section-item-subtitle">{item.subtitle}</h5>
                     <p className="section-item-body">{item.body}</p>
