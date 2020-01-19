@@ -121,7 +121,7 @@ class MakeTen extends React.Component {
                         type="text"
                         id="input"
                         maxLength="4"
-                        className="train train-input"
+                        className="train"
                         placeholder="1234"
                         size="4"
                         onKeyDown={this.validateNumber}

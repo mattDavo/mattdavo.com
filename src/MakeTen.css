@@ -1,10 +1,29 @@
 .make-ten-container {
     margin: auto;
     max-width: 800px;
+    padding: 0px 20px;
 }
 
 #input {
-    max-width: 120%;
+    display: block;
+    border-bottom-color: cornflowerblue;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    outline-width: 0px;
+    padding: 0px;
+    font-size: 25vw;
+    color: cornflowerblue;
+    caret-color: cornflowerblue;
+    text-indent: 5px;
+    position: relative;
+    margin: auto;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 700px) {
+    #input {
+        font-size: 175px;
+    }
 }
 
 #solveable {
@@ -13,27 +32,6 @@
 
 .train {
     background-color: #eeeeee;
-}
-    
-.train-input {
-    border-bottom-color: cornflowerblue;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 1px;
-    outline-width: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 140px;
-    color: cornflowerblue;
-    caret-color: cornflowerblue;
-    width: auto;
-    text-indent: 5px;
-    /* margin-left: -50px; */
-    position: relative;
-    left: 25%;
-    margin: auto;
-    background-color: inherit;
 }
 
 .train-solution {
