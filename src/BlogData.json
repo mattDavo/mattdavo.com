@@ -1,5 +1,15 @@
 [
     {
+        "title": "Developing your Swift Packages",
+        "summary": "Learn how to best simultaneously develop your swift packages alongside another project.",
+        "date": 1579406583,
+        "link": "/blog/swift-package-development",
+        "tags": [
+            "swift",
+            "xcode"
+        ]
+    },
+    {
         "title": "Settings up good dev and test environment",
         "summary": "Creating more environments in Xcode for creating Beta and Test versions of your apps.",
         "date": 1571009694,

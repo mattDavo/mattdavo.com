@@ -34,5 +34,11 @@
         "title": "MOCKING",
         "color": "#c603fc",
         "link": "/tags/mocking"
+    },
+    {
+        "id": "xcode",
+        "title": "XCODE",
+        "color": "#42a4f5",
+        "link": "/tags/xcode"
     }
 ]
