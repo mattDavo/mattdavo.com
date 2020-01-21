@@ -91,6 +91,13 @@
                 ]
             },
             {
+                "title": "Instacram",
+                "subtitle": "COMP2041 - 2018, Instagram copy",
+                "body": "",
+                "previewImage": "/images/instacram1.png",
+                "link": "/work/instacram"
+            },
+            {
                 "title": "Policy Pilot",
                 "subtitle": "React Native App, January 2018",
                 "body": "A simple, colourful, proof of concept app built in React Native, to highlight the good, neutral and bad points in the terms and conditions of over 60 web services.",
