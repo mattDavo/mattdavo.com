@@ -1,38 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fe968c2.chunk.css",
-    "main.js": "/static/js/main.ff5e7c6e.chunk.js",
-    "main.js.map": "/static/js/main.ff5e7c6e.chunk.js.map",
+    "main.css": "/static/css/main.e66c708a.chunk.css",
+    "main.js": "/static/js/main.ca82d21f.chunk.js",
+    "main.js.map": "/static/js/main.ca82d21f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7286f22.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7286f22.js.map",
-    "static/js/2.cbe82f7a.chunk.js": "/static/js/2.cbe82f7a.chunk.js",
-    "static/js/2.cbe82f7a.chunk.js.map": "/static/js/2.cbe82f7a.chunk.js.map",
+    "static/js/2.5962e628.chunk.js": "/static/js/2.5962e628.chunk.js",
+    "static/js/2.5962e628.chunk.js.map": "/static/js/2.5962e628.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.80f57ff26b6fcc735d06d3dbe620d589.js": "/precache-manifest.80f57ff26b6fcc735d06d3dbe620d589.js",
+    "precache-manifest.125a93d59c520c44f05e0fff0cac7524.js": "/precache-manifest.125a93d59c520c44f05e0fff0cac7524.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8fe968c2.chunk.css.map": "/static/css/main.8fe968c2.chunk.css.map",
-    "static/js/2.cbe82f7a.chunk.js.LICENSE": "/static/js/2.cbe82f7a.chunk.js.LICENSE",
-    "static/media/class-variable.md": "/static/media/class-variable.f8598216.md",
-    "static/media/coffee-better.md": "/static/media/coffee-better.b6c6dd7f.md",
-    "static/media/editor.md": "/static/media/editor.aafaa143.md",
-    "static/media/instacram.md": "/static/media/instacram.3bf31216.md",
-    "static/media/library-function-mocking.md": "/static/media/library-function-mocking.f6834f7a.md",
-    "static/media/masters-shotlink.md": "/static/media/masters-shotlink.1d43acb1.md",
-    "static/media/me.jpg": "/static/media/me.211f12b2.jpg",
-    "static/media/menu-bar.md": "/static/media/menu-bar.16172612.md",
-    "static/media/networks-asst.md": "/static/media/networks-asst.361f5a79.md",
-    "static/media/policy-pilot.md": "/static/media/policy-pilot.82b95e9f.md",
-    "static/media/refactoring-yippy.md": "/static/media/refactoring-yippy.8e107a94.md",
-    "static/media/setting-up-dev-and-test-env.md": "/static/media/setting-up-dev-and-test-env.26994bde.md",
-    "static/media/swift-package-development.md": "/static/media/swift-package-development.58350b7f.md",
-    "static/media/uiimagedefaults.md": "/static/media/uiimagedefaults.97a75945.md",
-    "static/media/westpac.md": "/static/media/westpac.92fe975a.md",
-    "static/media/yippy.md": "/static/media/yippy.caee6bc5.md"
+    "static/css/main.e66c708a.chunk.css.map": "/static/css/main.e66c708a.chunk.css.map",
+    "static/js/2.5962e628.chunk.js.LICENSE": "/static/js/2.5962e628.chunk.js.LICENSE",
+    "static/media/me.jpg": "/static/media/me.211f12b2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c7286f22.js",
-    "static/js/2.cbe82f7a.chunk.js",
-    "static/css/main.8fe968c2.chunk.css",
-    "static/js/main.ff5e7c6e.chunk.js"
+    "static/js/2.5962e628.chunk.js",
+    "static/css/main.e66c708a.chunk.css",
+    "static/js/main.ca82d21f.chunk.js"
   ]
 }
