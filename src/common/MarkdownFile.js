@@ -12,22 +12,20 @@ class MarkdownFile extends React.Component {
     }
 
     componentDidMount() {
-        try {
-            const readmePath = require(process.env.PUBLIC_URL + '.' + this.props.filePath);
-            fetch(readmePath)
-                .then(response => {
-                    return response.text()
+        fetch(this.props.filePath)
+            .then(response => {
+                return response.text()
+            })
+            .then(text => {
+                this.setState({
+                    input: text,
+                    finished: true
                 })
-                .then(text => {
-                    this.setState({
-                        input: text,
-                        finished: true
-                    })
-                })
-        }
-        catch {
-            this.setState({ finished: true })
-        }
+            })
+            .catch((e) => {
+                console.log(e);
+                this.setState({ finished: true })
+            })
     }
 
     render() {

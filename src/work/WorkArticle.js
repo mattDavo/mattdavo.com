@@ -3,7 +3,7 @@ import {
     useParams
 } from 'react-router-dom';
 
-import MarkdownFile from './MarkdownFile';
+import MarkdownFile from '../common/MarkdownFile';
 
 function WorkArticle() {
     let { topicId } = useParams();

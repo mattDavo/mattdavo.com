@@ -7,7 +7,7 @@ import {
 
 import BlogArticle from './BlogArticle';
 import './Blog.css';
-import './Tag.css';
+import '../common/Tag.css';
 
 import blogData from './BlogData.json';
 import blogTags from './BlogTags.json';
@@ -72,8 +72,8 @@ class Blog extends React.Component {
             <div id="blog-container">
                 <Switch>
                     <Route exact path="/blog">
-                        <h1>Weekly Articles</h1>
-                        <p>Articles on what I learn each week in my life as a developer.</p>
+                        <h1>Developer blog</h1>
+                        <p>Articles on concepts/tips/techniques I learn in my life as a developer.</p>
                         {articles}
                     </Route>
                     <Route path="/blog/:blog">

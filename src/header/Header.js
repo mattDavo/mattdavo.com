@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Header.css'
-import me from './images/me.jpg';
+import me from '../images/me.jpg';
 
 import {
     FaFacebook,

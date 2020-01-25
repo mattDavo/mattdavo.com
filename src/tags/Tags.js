@@ -2,9 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 import './Tags.css';
-import blogData from './BlogData.json';
-import blogTags from './BlogTags.json';
-import { renderArticles, renderTag } from './Blog';
+import blogData from '../blog/BlogData.json';
+import blogTags from '../blog/BlogTags.json';
+import { renderArticles, renderTag } from '../blog/Blog';
 
 
 

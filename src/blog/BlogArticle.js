@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 
 import { getArticleSubtitle } from './Blog';
-import MarkdownFile from './MarkdownFile';
+import MarkdownFile from '../common/MarkdownFile';
 
 function BlogArticle(props) {
     let { blog } = useParams();
