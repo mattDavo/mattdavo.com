@@ -1,7 +1,7 @@
 [
     {
         "title": "Custom Alerts in SwiftUI",
-        "summary": "",
+        "summary": "Learn how to create a custom popover alert-style view with a bouncy animation.",
         "date": 1580314657,
         "link": "/blog/swiftui-custom-alert",
         "tags": [
