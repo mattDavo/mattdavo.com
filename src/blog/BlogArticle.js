@@ -18,7 +18,7 @@ function BlogArticle(props) {
         <div>
             <h1 className="title">{title}</h1>
             {subtitle}
-            <MarkdownFile filePath={`/blog/${blog}.md`} />
+            <MarkdownFile filePath={`/content/blog/${blog}.md`} />
         </div>
     );
 }

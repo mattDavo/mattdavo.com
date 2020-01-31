@@ -7,7 +7,7 @@ import MarkdownFile from '../common/MarkdownFile';
 
 function WorkArticle() {
     let { topicId } = useParams();
-    return <MarkdownFile filePath={`/work/${topicId}.md`} />;
+    return <MarkdownFile filePath={`/content/work/${topicId}.md`} />;
 }
 
 export default WorkArticle;
