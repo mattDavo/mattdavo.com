@@ -40,5 +40,11 @@
         "title": "XCODE",
         "color": "#42a4f5",
         "link": "/tags/xcode"
+    },
+    {
+        "id": "swiftui",
+        "title": "SWIFTUI",
+        "color": "#0362fc",
+        "link": "/tags/swiftui"
     }
 ]
