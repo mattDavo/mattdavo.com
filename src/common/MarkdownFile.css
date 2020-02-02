@@ -17,3 +17,17 @@ code {
 pre code {
     background-color: inherit;
 }
+
+blockquote {
+    margin: 0px;
+    padding: 10px 30px;
+    background-color: var(--primary-color-faint);
+    border: 0px;
+    border-left: 5px;
+    border-color: var(--primary-color);
+    border-style: solid;
+}
+
+blockquote p {
+    margin: 5px 0px;
+}

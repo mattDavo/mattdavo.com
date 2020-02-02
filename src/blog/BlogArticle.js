@@ -12,7 +12,6 @@ function BlogArticle(props) {
     let blogData = props.blogData.filter((d) => d.link === `/blog/${blog}`)[0] || {};
     let title = blogData.title;
     let subtitle = getArticleSubtitle(blogData);
-    console.log(blogData);
     
     return (
         <div>

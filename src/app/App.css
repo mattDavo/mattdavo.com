@@ -1,6 +1,7 @@
 /* Base app styling is light */
 :root {
     --primary-color: rgb(94, 219, 250);
+    --primary-color-faint: rgba(94, 219, 250, 0.24);
     --secondary-color: rgb(89, 193, 253);
     --alt-primary-color: white;
 }
@@ -26,6 +27,7 @@ a {
 @media (prefers-color-scheme: dark) {
     :root {
         --primary-color: rgb(37, 143, 214);
+        --primary-color-faint: rgba(37, 143, 214, 0.212);
         --secondary-color: rgb(17, 76, 202);
         --alt-primary-color: rgb(26, 26, 26);
     }

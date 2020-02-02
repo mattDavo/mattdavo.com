@@ -34,7 +34,7 @@ class MarkdownFile extends React.Component {
                 <div className="markdown-container">
                     <ReactMarkdown
                         source={this.state.input}
-                        renderers={{ code: CodeBlock, image: Image }}
+                        renderers={{ code: CodeBlock, image: Image, blockquote: Blockquote }}
                         escapeHtml={false}
                     />
                 </div>
@@ -54,6 +54,14 @@ class MarkdownFile extends React.Component {
             )
         }
     }
+}
+
+function Blockquote(props) {
+    return (
+        <blockquote>
+            {props.children}
+        </blockquote>
+    );
 }
 
 function Image(props) {
