@@ -193,7 +193,7 @@ withAnimation {
 }
 ```
 
-**Note: The SwiftUI live preview can be a bit unreliable with animations, so it's best to test with the simulator or on a device.**
+> **Note**: The SwiftUI live preview can be a bit unreliable with animations, so it's best to test with the simulator or on a device.
 
 With the opacity transition on the left and a slide transition on the right, we get results like this:
 
