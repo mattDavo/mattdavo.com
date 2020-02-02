@@ -55,6 +55,11 @@
                         "title": "SOURCE CODE",
                         "link": "https://github.com/mattDavo/yippy",
                         "color": "#23d160"
+                    },
+                    {
+                        "title": "WEBSITE",
+                        "link": "https://yippy.mattdavo.com",
+                        "color": "gray"
                     }
                 ]
             },
