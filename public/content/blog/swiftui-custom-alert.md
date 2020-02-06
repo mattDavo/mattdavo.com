@@ -193,7 +193,7 @@ withAnimation {
 }
 ```
 
-> **Note**: The SwiftUI live preview can be a bit unreliable with animations, so it's best to test with the simulator or on a device.
+<NoteBlock>**Note**: The SwiftUI live preview can be a bit unreliable with animations, so it's best to test with the simulator or on a device.</NoteBlock>
 
 With the opacity transition on the left and a slide transition on the right, we get results like this:
 
@@ -265,6 +265,7 @@ Awesome! We've now got a pretty nice custom alert. Where to go from here? Well, 
 </div>
 
 Full source code:
+
 ```Swift
 import SwiftUI
 

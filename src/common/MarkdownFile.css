@@ -8,17 +8,7 @@
     text-align: center;
 }
 
-code {
-    background-color: rgb(153, 153, 153);
-    border-radius: 7px;
-    padding: 3px;
-}
-
-pre code {
-    background-color: inherit;
-}
-
-blockquote {
+.note {
     margin: 0px;
     padding: 10px 30px;
     background-color: var(--primary-color-faint);
@@ -28,6 +18,6 @@ blockquote {
     border-style: solid;
 }
 
-blockquote p {
+.note p {
     margin: 5px 0px;
 }

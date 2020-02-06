@@ -1,3 +1,24 @@
+pre {
+    margin-bottom: 1.5em;
+    background: rgb(245, 245, 245);
+    border-radius: 16px;
+}
+
+code {
+    background-color: rgb(153, 153, 153);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+pre code {
+    display: block;
+    padding: 0 10px;
+    line-height: 1.4em;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    background-color: inherit;
+}
+
 /* We default to using the xcode theme. */
 /*
 XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
@@ -9,6 +30,7 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
   padding: 0.5em;
   background: rgb(245, 245, 245);
   color: black;
+  margin: 10px;
 }
 
 /* Gray DOCTYPE selectors like WebKit */
@@ -64,7 +86,7 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 .hljs-built_in,
 .hljs-builtin-name,
 .hljs-params {
-  color: #5c2699;
+  color: #1c00cf;
 }
 
 .hljs-attr {
@@ -105,10 +127,16 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 
 /* But in dark mode we use my custom theme. */
 @media (prefers-color-scheme: dark) {
+    pre {
+        background: rgb(39, 39, 39);
+    }
+    
     .hljs {
         display: block;
         overflow-x: auto;
         padding: 0.5em;
+        padding: 16px 0px;
+        border-radius: 16px;
         background: rgb(39, 39, 39);
         color: white
     }
@@ -119,7 +147,7 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
     }
 
     .hljs-class {
-        color: #ce9d4d;
+        color: rgb(123, 189, 243);
         font-weight: bold
     }
 
@@ -187,6 +215,14 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
         color: rgb(123, 189, 243);
     }
     .hljs-built_in {
+        color: rgb(123, 189, 243);
+    }
+    
+    .hljs-class .hljs-title,
+    .hljs-type,
+    .hljs-built_in,
+    .hljs-builtin-name,
+    .hljs-params {
         color: rgb(123, 189, 243);
     }
 

@@ -46,5 +46,11 @@
         "title": "SWIFTUI",
         "color": "#0362fc",
         "link": "/tags/swiftui"
+    },
+    {
+        "id": "debugging",
+        "title": "DEBUGGING",
+        "color": "#e6c800",
+        "link": "/tags/debugging"
     }
 ]

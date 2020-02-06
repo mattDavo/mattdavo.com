@@ -1,5 +1,16 @@
 [
     {
+        "title": "Debudding macOS App Crashes - macOS App Symbolication",
+        "summary": "Xcode doesn't yet have support for importing macOS crash logs and symbolizing them. Learn how to do it through the command line.",
+        "date": 1580980635,
+        "link": "/blog/macos-symbolication",
+        "tags": [
+            "xcode",
+            "debugging",
+            "cocoa"
+        ]
+    },
+    {
         "title": "Is Xcode using up all your storage?",
         "summary": "Tips on periodic cleanup of Xcode's massive amount of supporting files.",
         "date": 1580510911,

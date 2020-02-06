@@ -1,23 +1,19 @@
-import React, { PureComponent } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import './codeStyle.css';
 
-class CodeBlock extends PureComponent {
-    static propTypes = {
-        value: PropTypes.string.isRequired,
-        language: PropTypes.string
-    };
-
-    static defaultProps = {
-        language: null
-    };
+class CodeBlock extends React.Component {
 
     render() {
-        const { language, value } = this.props;
+        const { className, children } = this.props;
+        const language = (className || "").replace('lang-', '');
+        if (className === undefined) {
+            return (<code>{children}</code>);
+        }
+        
         return (
             <SyntaxHighlighter language={language} useInlineStyles={false} wrapLines={true}>
-                {value}
+                {children}
             </SyntaxHighlighter>
         );
     }

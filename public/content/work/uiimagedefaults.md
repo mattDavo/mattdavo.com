@@ -6,6 +6,7 @@ Simple Swift extension for locally saving and loading images with ease.
 Check out on [Github](https://github.com/mattDavo/UIImageDefaults).
 
 Example:
+
 ```Swift
 // Import the package to use with an image
 import UIImageDefaults

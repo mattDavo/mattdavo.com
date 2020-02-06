@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactMarkdown from "react-markdown";
+import Markdown from 'markdown-to-jsx';
 
 import './MarkdownFile.css'
 import CodeBlock from "./CodeBlock";
@@ -32,11 +32,17 @@ class MarkdownFile extends React.Component {
         if (this.state.input) {
             return (
                 <div className="markdown-container">
-                    <ReactMarkdown
-                        source={this.state.input}
-                        renderers={{ code: CodeBlock, image: Image, blockquote: Blockquote }}
-                        escapeHtml={false}
+                    <Markdown
+                        children={this.state.input}
+                        options={{
+                            overrides: {
+                                img: Image,
+                                NoteBlock: NoteBlock,
+                                code: CodeBlock
+                            }
+                        }}
                     />
+                    
                 </div>
             );
         }
@@ -56,16 +62,18 @@ class MarkdownFile extends React.Component {
     }
 }
 
-function Blockquote(props) {
+function NoteBlock(props) {
     return (
-        <blockquote>
-            {props.children}
-        </blockquote>
+        <div className="note">
+            <p>
+                {props.children}
+            </p>
+        </div>
     );
 }
 
 function Image(props) {
-    return <img {...props} style={{ maxWidth: '100%', maxHeight: '600px' }} alt={props.src}/>
+    return <img {...props} style={{ maxWidth: '100%', maxHeight: '600px', margin: '5px', ...props.style}}  alt={props.src}/>
 }
 
 export default MarkdownFile;
