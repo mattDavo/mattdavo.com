@@ -1,6 +1,7 @@
 After working on Yippy for a while I realised that I needed some more environments. Firstly I wanted to be able to have the latest release of Yippy running on my laptop (so that I could take advantage of all my hard work 😊). This would mean that I needed another instance of Yippy running totally separately which couldn't interfere with any of the save settings or anything. This would mean I would need a new bundle identifier. I also decided that I now wanted a totally fresh version of the app for testing as well, and I didn't want to be able to accidently run the tests on my other versions of the app. So here's how I did it:
 
 First I opened up my Yippy project document and created 3 new configurations:
+
 - A duplicate of Debug called Beta Debug
 - A duplicate of Release called Beta Release
 - A duplicate of Debug called XCTest
@@ -17,6 +18,7 @@ Next, to configure the Yippy Beta scheme I basically just changed all build conf
 Finally, for the Yippy XCTest scheme I did the opposite, I kept the testing targets but removed unticked all the non-testing columns: Analyze, Run, Profile, Archive. So, that the testing version can't be run normally or archived.
 
 Now, these new configurations won't work until I update my cocoa pods because it is not set up yet. First I needed to edit the Podfile, specifying the types of configurations like so:
+
 ```ruby
 project 'Yippy', {
     'Debug' => :debug,

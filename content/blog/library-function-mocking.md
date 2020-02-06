@@ -3,6 +3,7 @@ It is sometimes necessary to mock out library functions for testing when we can'
 Now it doesn't make much sense for our tests to require us to change the app's actual control during testing, so we need another way. This can be done simply with a mock. Let's see how:
 
 First, we need to stop calling `AXIsProcessTrusted()` directly in our app. We can do this by creating a helper class:
+
 ```Swift
 class AccessControlHelper {
 
@@ -13,6 +14,7 @@ class AccessControlHelper {
 ```
 
 By some form of [dependency injection](https://www.swiftbysundell.com/articles/different-flavors-of-dependency-injection-in-swift/) `AccessControlHelper` should be injected into the app globally. Next we create our mock data source for whether the app has been granted full control or not by using a globally accessable `NSPasteboard`:
+
 ```Swift
 import Cocoa
 
@@ -32,6 +34,7 @@ struct AccessControlMock {
 ```
 
 Now when a testing instance of our app is running we can inject the following `AccessControlHelperMock` in place of `AccessControlHelper`:
+
 ```Swift
 class AccessControlHelperMock: AccessControlHelper {
 
@@ -42,6 +45,7 @@ class AccessControlHelperMock: AccessControlHelper {
 ```
 
 Now finally, in our tests we can 'control' the access control:
+
 ```Swift
 // Start off without control
 AccessControlMock.setControlGranted(false)
