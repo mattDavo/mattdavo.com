@@ -3,7 +3,7 @@ import './App.css';
 import {
     BrowserRouter as Router,
     Route,
-    Switch
+    Switch,
 } from 'react-router-dom';
 
 import Header from '../header/Header';
@@ -26,15 +26,15 @@ function App() {
                     <Header />
                     <div className="app-content">
                         <Switch>
-                            <Route exact path='/' component={Home}></Route>
-                            <Route path='/work'>
+                            <Route exact path="/" component={Home} />
+                            <Route path="/work">
                                 <Work />
                             </Route>
-                            <Route exact path='/make-ten' component={MakeTen} />
-                            <Route exact path='/about' component={About} />
-                            <Route path='/blog' component={Blog} />
-                            <Route path='/tags/:tag' component={Tags} />
-                            <Route component={NotFoundComponent}></Route>
+                            <Route exact path="/make-ten" component={MakeTen} />
+                            <Route exact path="/about" component={About} />
+                            <Route path="/blog" component={Blog} />
+                            <Route path="/tags/:tag" component={Tags} />
+                            <Route component={NotFoundComponent} />
                         </Switch>
                     </div>
                     <Footer />

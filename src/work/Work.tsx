@@ -2,14 +2,14 @@ import React from 'react';
 import {
     Route,
     Switch,
-    useRouteMatch
+    useRouteMatch,
 } from 'react-router-dom';
 
 import './Work.css';
 import WorkArticle from './WorkArticle';
 
 function Work() {
-    let match = useRouteMatch();
+    const match = useRouteMatch();
     return (
         <div id="work-container">
             <Switch>
