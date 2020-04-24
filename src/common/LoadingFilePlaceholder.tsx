@@ -12,7 +12,7 @@ export default function LoadingFilePlaceholder(): JSX.Element {
             <div className="loading-code-block">
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-blue loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-2" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-2" />
                 </div>
                 <div className="loading-code-line" />
                 <div className="loading-code-line">
@@ -20,30 +20,30 @@ export default function LoadingFilePlaceholder(): JSX.Element {
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-blue loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-3" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-3" />
                     <div className="loading-code-token loading-code-blue loading-code-is-1" />
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-is-1" />
                     <div className="loading-code-token loading-code-red loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-1" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-1" />
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-3" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-3" />
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-2" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-2" />
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-1" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-1" />
                     <div className="loading-code-token loading-code-blue loading-code-is-1" />
                 </div>
                 <div className="loading-code-line">
                     <div className="loading-code-token loading-code-is-1" />
-                    <div className="loading-code-token loading-code-white loading-code-is-3" />
+                    <div className="loading-code-token loading-code-plain loading-code-is-3" />
                 </div>
             </div>
         </div>

@@ -1,8 +1,19 @@
-/* Loading */
-
 #loading-container {
     padding-top: 20px;
     animation: flickerAnimation 1s infinite;
+    /* Default colors for a light theme */
+    --text-color: rgba(56, 56, 56, 0.342);
+    --block-color: rgba(136, 135, 135, 0.342);
+    --plain-code-color: rgba(56, 56, 56, 0.342);
+}
+
+/* Style different if dark color scheme is preferred. */
+@media (prefers-color-scheme: dark) {
+    #loading-container {
+        --text-color:  #ffffff31;
+        --block-color: #3b3b3b;
+        --plain-code-color: rgba(255, 255, 255, 0.432);
+    }
 }
 
 /* Loading: animation */
@@ -16,7 +27,7 @@
 /* Loading: text */
 
 .loading-line {
-    background-color: #ffffff31;
+    background-color: var(--text-color);
     margin: 20px;
 }
 
@@ -38,7 +49,7 @@
 /* Loading: code */
 
 .loading-code-block {
-    background-color: #3b3b3b;
+    background-color: var(--block-color);
     border-radius: 20px;
     margin: 20px;
     padding: 10px 20px;
@@ -60,8 +71,8 @@
     background-color: rgba(247, 58, 58, 0.432);
 }
 
-.loading-code-white {
-    background-color: rgba(255, 255, 255, 0.432);
+.loading-code-plain {
+    background-color: var(--plain-code-color);
 }
 
 .loading-code-green {
@@ -87,31 +98,4 @@
 .loading-code-is-3 {
     width: 30%;
     min-width: 300px;
-}
-
-.loading-code-short-line {
-    background-color: rgba(255, 255, 255, 0.432);
-    height: 20px;
-    max-width: 200px;
-}
-
-.loading-code-short-inline-blue {
-    background-color: #3641dabb;
-    height: 20px;
-    margin: 20px 0px;
-    display: inline-block;
-    width: 100px;
-}
-
-.loading-code-short-inline-white {
-    background-color: rgba(255, 255, 255, 0.432);
-    height: 20px;
-    display: inline-block;
-}
-
-.loading-code-short-inline-red {
-    background-color: rgba(247, 58, 58, 0.432);
-    height: 20px;
-    display: inline-block;
-    max-width: 200px;
 }
