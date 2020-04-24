@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 
 import './MarkdownFile.css'
 import CodeBlock from './CodeBlock';
+import LoadingFilePlaceholder from './LoadingFilePlaceholder';
 
 function NoteBlock(props: React.PropsWithChildren<{}>) {
     const { children } = props;
@@ -37,7 +38,7 @@ interface IProps {
 
 interface IState {
     finished: boolean;
-    input: string;
+    input?: string;
     success: boolean
 }
 
@@ -46,7 +47,7 @@ class MarkdownFile extends React.Component<IProps, IState> {
         super(props);
         this.state = {
             finished: false,
-            input: '',
+            // input: undefined,
             success: false,
         };
     }
@@ -54,16 +55,22 @@ class MarkdownFile extends React.Component<IProps, IState> {
     componentDidMount() {
         const { filePath } = this.props;
 
+        const startFetch = Date.now();
+
         fetch(filePath)
             .then((response) => response.text())
             .then((text) => {
-                console.log(text);
-                console.log(filePath);
-                this.setState({
-                    input: text,
-                    finished: true,
-                    success: true,
-                })
+                const elapsed = Date.now() - startFetch;
+                const delay = 1;
+                const wait = elapsed / 1000 > delay ? 0 : delay * 1000 - elapsed;
+
+                setTimeout(() => {
+                    this.setState({
+                        input: text,
+                        finished: true,
+                        success: true,
+                    });
+                }, wait);
             })
             .catch(() => {
                 this.setState({ finished: true, success: false })
@@ -72,6 +79,11 @@ class MarkdownFile extends React.Component<IProps, IState> {
 
     render() {
         const { input, finished, success } = this.state;
+
+        if (!finished) {
+            return <LoadingFilePlaceholder />;
+        }
+
         if (input && success === true) {
             return (
                 <div className="markdown-container">
