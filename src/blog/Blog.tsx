@@ -43,7 +43,7 @@ function getArticleSubtitle(article: Article) {
         <span className="subtitle article-subtitle">
             {tags}
             <span className="article-date">
-                Published on
+                {'Published on '}
                 {dataStr}
             </span>
         </span>
