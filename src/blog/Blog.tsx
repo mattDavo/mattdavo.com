@@ -55,7 +55,7 @@ function renderArticle(article: Article, i: number) {
 
     return (
         <div key={i}>
-            <hr />
+            <hr className="article-divider" />
             <h2 className="title article-title link-title">
                 <Link to={article.link}>
                     {article.title}

@@ -106,7 +106,7 @@
                 "title": "Instacram",
                 "subtitle": "COMP2041 - 2018, Instagram copy",
                 "body": "",
-                "previewImage": "/images/instacram1.png",
+                "previewImage": "/images/instacram/instacram1.png",
                 "link": "/work/instacram"
             },
             {
@@ -135,7 +135,7 @@
             {
                 "title": "Masters Shotlink",
                 "subtitle": "Classifying golf shots by pixel colors",
-                "previewImage": "/images/masters-shotlink2.jpg",
+                "previewImage": "/images/masters-shotlink/masters-shotlink2.jpg",
                 "link": "/work/masters-shotlink"
             },
             {

@@ -9,4 +9,4 @@ Allows applying all NSAttributedString attributes as well as custom Editor attri
 
 Add Editor to your application with the Swift Package Manager to easily create an editor with non-trivial features.
 
-![](/images/EditorReadMeExample.gif)
+![](/images/editor/EditorReadMeExample.gif)
