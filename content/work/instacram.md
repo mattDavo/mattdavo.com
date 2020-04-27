@@ -8,10 +8,10 @@ I also implemented more complex functionality such a [push notifications](https:
 I styled the webapp with [Bulma](https://bulma.io/)
 
 > The users profile page
-![](/images/instacram1.png)
+![](/images/instacram/instacram1.png)
 
 > Looking at user's post
-![](/images/instacram2.png)
+![](/images/instacram/instacram2.png)
 
 > Writing a comment on a user's post
-![](/images/instacram3.png)
+![](/images/instacram/instacram3.png)
