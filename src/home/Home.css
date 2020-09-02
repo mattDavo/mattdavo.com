@@ -69,6 +69,10 @@
     max-width:100%;
 }
 
+.section-item-body {
+    white-space: pre-wrap;
+}
+
 /* Medium screen: content width is flexible. */
 @media (min-width: 800px) {
     .section-item {
