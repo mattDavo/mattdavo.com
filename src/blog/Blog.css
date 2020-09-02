@@ -22,9 +22,8 @@
 
 .article-divider {
     margin: 40px 0px;
-    opacity: 0.5;
+    opacity: 0.1;
     height: 1px;
     border-width: 0;
-    background-color: var(--primary-color);
-    /* border-top-width: 0.5px; */
+    background-color: var(--text-color);
 }

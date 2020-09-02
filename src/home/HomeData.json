@@ -3,16 +3,22 @@
         "title": "Recent Work",
         "items": [
             {
+                "id": "canva",
+                "title": "Canva",
+                "subtitle": "Frontend Engineer, Sep 2020 - Current",
+                "body": "React + TypeScript Frontend Engineer working in the Pro Growth team."
+            },
+            {
                 "id": "wisetech",
                 "title": "WiseTech Global",
-                "subtitle": "C# Developer, Feb 2020 - Current",
+                "subtitle": "C# Developer, Feb 2020 - Jul 2020",
                 "body": "Full stack C# developer working on the Productivity Acceleration and Visualation Engine (PAVE) team; building workflow management and job efficiency tooling.",
                 "link": null
             },
             {
                 "id": "westpac",
                 "title": "Westpac, DDEP",
-                "subtitle": "Data Engineer, Jul - Dec 18",
+                "subtitle": "Data Engineer, Jul - Dec 2018",
                 "body": "Developed Inbound JSON functionality for Data Driven Experiences Platform python framework, which provides the ability to ingest large JSON datasets with optional pre-processing, validate schemas and produce a Hive table on top. Wrote unit tests, increasing code coverage from approximately 60% to 70% (100+ tests).",
                 "link": "/work/westpac"
             },
@@ -34,7 +40,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "moreLink": "/work"
     },
     {
         "title": "Open Source",
